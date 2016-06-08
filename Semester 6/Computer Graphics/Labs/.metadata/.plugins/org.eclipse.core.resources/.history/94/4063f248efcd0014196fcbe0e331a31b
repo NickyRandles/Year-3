@@ -1,0 +1,12 @@
+import javax.swing.ImageIcon;
+
+
+public class GoldMedal extends Medal{
+
+	@Override
+	public ImageIcon getIcon() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

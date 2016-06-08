@@ -1,0 +1,48 @@
+
+public class CircularList {
+
+	public Node list;
+	public int numUsers;
+	
+	public CircularList()
+	{
+		list = null;
+		numUsers = 0;
+	}
+	
+	public boolean isEmpty()
+	{
+		return numUsers == 0;
+	}
+	
+	public int size()
+	{
+		return numUsers;
+	}
+	
+	public void add(int index, String user) 
+	  {
+	    if (index >= 1 && index <= numUsers+1)
+	    {
+	      if (index == 1)
+	      {
+	        if (list == null) 
+			 {
+				Node newNode = new Node(user, null);
+			    list = newNode;
+			    list.setNext(newNode);
+			 }
+	        else
+	         {
+	          Node newNode = new Node(user, list.getNext());
+	          list.setNext(newNode);
+		     }
+	     }
+
+	      numUsers++;
+	    }
+
+	  }  // end add
+	
+	
+}

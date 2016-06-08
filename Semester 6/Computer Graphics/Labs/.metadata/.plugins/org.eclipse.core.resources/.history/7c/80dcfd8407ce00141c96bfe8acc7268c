@@ -1,0 +1,33 @@
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+import javax.swing.*;
+
+
+public class GreetingDisplay extends JFrame implements ActionListener{
+	JComboBox<String> optionBox;
+	String [] options = {"Select", "Returning User", "New User"};
+	JPanel panel;
+	
+	public GreetingDisplay(){
+		optionBox = new JComboBox<String>(options);
+		optionBox.addActionListener(this);
+		panel = new JPanel();
+		panel.add(optionBox);
+		this.add(panel);
+		setSize(300,300);
+		setVisible(true);
+		
+	}
+	
+	public static void main(String [] args){
+		new GreetingDisplay();
+	}
+
+	public void actionPerformed(ActionEvent e) {
+		AppWelcome welcome = new SecuredApp();
+		String item = (String) optionBox.getSelectedItem();
+		welcome.getGUI(item);
+		
+	}
+}

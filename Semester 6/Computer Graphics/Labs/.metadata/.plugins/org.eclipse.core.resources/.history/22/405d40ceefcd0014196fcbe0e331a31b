@@ -1,0 +1,11 @@
+
+public class HorseShowAwardingBody extends AwardingBody{
+
+	@Override
+	public Prize getPrize(int prize) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	
+}

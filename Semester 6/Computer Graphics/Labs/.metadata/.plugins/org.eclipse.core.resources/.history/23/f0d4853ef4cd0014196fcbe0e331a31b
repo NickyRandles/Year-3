@@ -1,0 +1,8 @@
+
+public abstract class AwardingBody {
+	protected String message;
+	
+	public abstract String getMessage();
+	public abstract Prize getPrize(int prize);
+	
+}

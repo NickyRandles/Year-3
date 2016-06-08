@@ -1,0 +1,57 @@
+
+public class Main {
+	
+	public static void main(String [] args)
+	{
+	
+
+		Stack stack = new Stack();
+		
+		stack.push('a');
+		System.out.print(stack.peek());
+		//Sample inputs
+		char [] braces = {'{', '{', '}', '}'}; //should be balanced
+		//char [] braces = {'{', '{', '{', '}'}; //should not be balanced
+		//char [] braces = {'{', '{', '{', '}', '}', '}'}; //should be balanced
+		//char [] braces = {'{', '{', '}', '}', '{'}; //should not be balanced
+		
+
+		boolean balancedSoFar = true;
+		int k = 0;
+		int input = braces.length;
+		
+		while(balancedSoFar == true && k < input)
+		{
+			if(braces[k] == '{')
+			{
+				stack.push('{');
+			}	
+			
+			else if(braces[k] == '}')
+			{
+				if(!stack.isEmpty())
+				{
+					stack.pop();
+				}
+				else
+				{
+					balancedSoFar = false;
+				}
+			}
+			k++;
+		}
+		
+		if(balancedSoFar == true && stack.isEmpty())
+		{
+			System.out.println("Balanced");
+		}
+		
+		else 
+		{
+			System.out.println("Not Balanced");
+		}
+		
+
+	}
+
+}

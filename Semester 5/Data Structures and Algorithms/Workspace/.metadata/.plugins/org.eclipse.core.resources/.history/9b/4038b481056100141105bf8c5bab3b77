@@ -1,0 +1,26 @@
+
+public class Main {
+	
+	public static void main(String [] args)
+	{
+		public Link firstLink;
+
+		Stack stack = new Stack();
+		
+		stack.push('h');
+		
+		stack.display();
+		
+  		Link theLink = firstLink;
+		int input = 0;
+		while(theLink != null)
+		{
+			input++;
+			theLink = theLink.next;
+		}
+		
+		System.out.println(input);
+	
+	}
+
+}

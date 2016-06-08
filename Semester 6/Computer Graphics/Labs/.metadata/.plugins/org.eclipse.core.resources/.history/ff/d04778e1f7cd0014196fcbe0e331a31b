@@ -1,0 +1,7 @@
+import javax.swing.*;
+
+
+public abstract class Ribbon  implements Prize{
+	
+	public abstract ImageIcon getIcon();
+}

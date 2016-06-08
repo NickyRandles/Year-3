@@ -1,0 +1,10 @@
+package factoryClasses;
+
+import gamePieces.LandVehicle;
+
+public interface BattleGameAbstractFactory{
+
+	public LandVehicle getBattleVehicle(int num);
+	public DamageItem getDamageItem(int num);
+	
+}

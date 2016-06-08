@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<invoice>
+	<invoiceNO>1001</invoiceNO>
+	<date>21/02/2010</date>
+	<customer>Joe Bloggs</customer>
+	<address>Dublin 1</address>
+<order01>
+	<name>Table</name>
+	<quantity>1</quantity>
+	<amount>250</amount>
+</order01>
+<order02>
+	<name>Chair</name>
+	<quantity>6</quantity>
+	<amount>200</amount>
+</order02>
+</invoice>

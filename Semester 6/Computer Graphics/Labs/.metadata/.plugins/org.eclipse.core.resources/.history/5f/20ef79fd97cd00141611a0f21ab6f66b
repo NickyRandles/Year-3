@@ -1,0 +1,10 @@
+
+public class Car extends NonLivingThing{
+	
+	public Car(){
+		name = "car";
+		feature = "wheels";
+		System.out.println(name + " class, subclass of NonLivingThing that has name \"" + name +  "\" and feature \"" + feature + "\"");
+	}
+
+}

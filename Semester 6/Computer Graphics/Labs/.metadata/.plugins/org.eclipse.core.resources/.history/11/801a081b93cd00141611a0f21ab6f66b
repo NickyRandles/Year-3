@@ -1,0 +1,9 @@
+
+public class NonLivingThingFactory implements EarthThingsAbstractFactory{
+
+	@Override
+	public Thing getThings(String things) {
+		return null;
+	}
+
+}

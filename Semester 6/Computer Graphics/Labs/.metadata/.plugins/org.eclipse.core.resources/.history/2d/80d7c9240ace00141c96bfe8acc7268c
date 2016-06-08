@@ -1,0 +1,15 @@
+
+public class SecuredApp extends AppWelcome{
+
+	@Override
+	public GreetingDisplay getGUI(String userType) {
+		if("Returning User".equalsIgnoreCase(userType)){
+			new LoginFrame();
+		}
+		if("New User".equalsIgnoreCase(userType)){
+			new RegisterFrame();
+		}
+		return null;
+	}
+
+}

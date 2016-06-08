@@ -1,0 +1,17 @@
+{"invoice":
+	{"invoiceNO" : "1001",
+	 "date" : "21/02/2010",
+       	 "customer" : "Joe Bloggs",
+       	 "address": "Dublin 1",
+	 "order01":
+		{"name": "Table",
+		 "quantity": "1",
+		 "amount": "250"},
+	  "order02":
+	 	{"name": "Chair",
+	 	 "quantity": "6",
+		 "amount": "200"}
+	}
+	
+}
+	

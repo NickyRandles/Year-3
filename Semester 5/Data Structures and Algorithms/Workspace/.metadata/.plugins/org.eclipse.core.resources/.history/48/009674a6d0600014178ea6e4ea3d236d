@@ -1,0 +1,51 @@
+public class Stack
+{
+	
+	public Link firstLink;
+	
+
+	public boolean isEmpty()
+	{
+		return(firstLink == null);
+	}
+
+  public void popAll(){}
+
+ 
+  public void push(char bracket)
+  {
+	  Link newLink = new Link(bracket);
+	  
+	  newLink.next = firstLink;
+	  
+	  firstLink = newLink;
+  }
+
+
+  public Link pop()
+  {
+	  Link linkRef = firstLink;
+	  
+	  if(!isEmpty())
+	  {
+		  firstLink = firstLink.next;
+	  }
+	  
+	  else
+	  {
+		  System.out.println("The list is empty");
+	  }
+	return linkRef;
+  }
+
+  public Object top() throws StackException{
+	return closedBracket;}
+  // Retrieves the top of a stack.
+  // Precondition: None.
+  // Postcondition: If the stack is not empty, the item
+  // that was added most recently is returned. The
+  // stack is unchanged.
+  // Exception: Throws StackException if the stack is
+  // empty.
+
+}  // end StackInterface

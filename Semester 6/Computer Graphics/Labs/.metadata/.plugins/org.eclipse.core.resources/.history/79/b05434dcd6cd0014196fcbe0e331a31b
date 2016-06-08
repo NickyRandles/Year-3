@@ -1,0 +1,10 @@
+package factoryClasses;
+
+import gamePieces.*;
+
+public interface BattleGameAbstractFactory{
+
+	public Vehicle getBattleVehicle(int num);
+	public DamageItem getDamageItem(int num);
+	
+}

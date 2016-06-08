@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="13.2">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>360</x>
+      <y>390</y>
+      <w>230</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;interface&gt;&gt;
+Chain
+--
++nextChain(Chain newChain): void
++getChain(String ball): void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>0</x>
+      <y>610</y>
+      <w>220</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>Basketball
+--
+-nextChain: Chain
++label: JLabel
++imageLabel: JLabel
++image: ImageIcon
+--
++nextChain(Chain newChain): void
++getChain(String ball): void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>480</x>
+      <y>610</y>
+      <w>220</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>Football
+--
+-nextChain: Chain
++label: JLabel
++imageLabel: JLabel
++image: ImageIcon
+--
++nextChain(Chain newChain): void
++getChain(String ball): void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>240</x>
+      <y>610</y>
+      <w>220</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>Rugby
+--
+-nextChain: Chain
++label: JLabel
++imageLabel: JLabel
++image: ImageIcon
+--
++nextChain(Chain newChain): void
++getChain(String ball): void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>720</x>
+      <y>610</y>
+      <w>220</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>Unrecognized
+--
+-nextChain: Chain
++label: JLabel
++imageLabel: JLabel
++image: ImageIcon
+--
++nextChain(Chain newChain): void
++getChain(String ball): void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>90</x>
+      <y>460</y>
+      <w>330</w>
+      <h>170</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+&lt;&lt;implements&gt;&gt;</panel_attributes>
+    <additional_attributes>310.0;10.0;10.0;150.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>340</x>
+      <y>460</y>
+      <w>150</w>
+      <h>170</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+&lt;&lt;implements&gt;&gt;</panel_attributes>
+    <additional_attributes>90.0;10.0;10.0;150.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>490</x>
+      <y>460</y>
+      <w>160</w>
+      <h>170</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+&lt;&lt;implements&gt;&gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;110.0;150.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>540</x>
+      <y>460</y>
+      <w>320</w>
+      <h>170</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+&lt;&lt;implements&gt;&gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;300.0;150.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>360</x>
+      <y>0</y>
+      <w>240</w>
+      <h>320</h>
+    </coordinates>
+    <panel_attributes>GameGUI
+--
++selectionPanel: JPanel
++balls: String[5]
++model: DefaultComboBoxModel
++ballBox: JComboBox
++shoot: JButton
++selectionLabel: JLabel
++ball1: JLabel
++ball2: JLabel
++ball3: JLabel
++ball4: JLabel
++basketball: Chain
++rugby: Chain
++football: Chain
++unrecognized: Chain
++image: ImageIcon
+--
++GameGUI()
++main: void
++actionPerformed(ActionEvent): void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>470</x>
+      <y>310</y>
+      <w>30</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;80.0;10.0;10.0</additional_attributes>
+  </element>
+</diagram>

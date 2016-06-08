@@ -1,0 +1,16 @@
+
+public class NonLivingThingFactory implements EarthThingsAbstractFactory{
+
+	@Override
+	public Thing getThing(String thing) {
+		
+		if("Car".equalsIgnoreCase(thing)){
+			return new Car();
+		}
+		if("Book".equalsIgnoreCase(thing)){
+			return new Book();
+		}
+		return null;
+	}
+
+}

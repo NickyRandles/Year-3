@@ -1,0 +1,13 @@
+
+public class CircularList {
+
+	public Node list;
+	public int numItems;
+	
+	public CircularList()
+	{
+		
+	}
+	
+	
+}

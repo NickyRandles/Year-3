@@ -1,0 +1,5 @@
+package factoryClasses;
+
+public class LandGameConcreteFactory implements BattleGameAbstractFactory{
+
+}

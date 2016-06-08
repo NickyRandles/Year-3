@@ -1,0 +1,10 @@
+package factoryClasses;
+
+import gamePieces.Car;
+
+public class LandGameConcreteFactory implements BattleGameAbstractFactory{
+
+	public Car getCar(){
+		return null;
+	}
+}

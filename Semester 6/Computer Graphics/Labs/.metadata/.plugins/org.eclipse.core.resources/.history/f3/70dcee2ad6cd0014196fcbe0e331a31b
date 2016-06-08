@@ -1,0 +1,24 @@
+package factoryClasses;
+
+import gamePieces.*;
+
+public class LandGameConcreteFactory implements BattleGameAbstractFactory{
+
+	public LandVehicle getBattleVehicle(int num){
+		if(num == 1){
+			return new Car();
+		}
+		else if(num == 2){
+			return new Tank();
+		}
+		return null;
+	}
+	
+	public DamageItem getDamageItem(int num){
+		if(num == 1){
+			return new RoadBlock();
+		}
+		return null;
+		
+	}
+}

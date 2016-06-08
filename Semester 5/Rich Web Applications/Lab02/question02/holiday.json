@@ -1,0 +1,31 @@
+{"holiday":
+	{"outboundFlight":
+		{"passenger01": "Joe Bloggs",
+		 "passenger02": "John Smith",
+		 "departFrom": "Dublin, Ireland",
+		 "destination": "Rome, Italy",
+		 "departDate": "4/3/2014",
+		 "departTime": "12:15pm",
+		 "arriveTime": "15:25pm"},
+		 
+	 "hotel":
+	 	{"hotelName": "Radisson Hotel",
+	 	 "hotelLocation": "Rome, Italy",
+	 	 "guest01": "Joe Bloggs",
+	 	 "guest02": "John Smith",
+	 	 "stay": "7 days",
+	 	 "checkinDate": "4/3/2014",
+	 	 "checkoutDate": "11/3/2014"},
+	 	 
+	 "returnFlight":
+		{"passenger01": "Joe Bloggs",
+		 "passenger02": "John Smith",
+		 "departFrom": "Rome, Italy",
+		 "destination": "Dublin, Ireland",
+		 "departDate": "11/3/2014",
+		 "departTime": "16:05pm",
+		 "arriveTime": "17:20pm"}
+	}
+	
+}
+	

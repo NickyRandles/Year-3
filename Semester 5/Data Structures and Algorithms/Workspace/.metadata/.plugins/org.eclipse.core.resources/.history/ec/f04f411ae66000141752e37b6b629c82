@@ -1,0 +1,101 @@
+
+public class CircularList {
+
+	public Node list;
+	public int numUsers;
+	
+	public CircularList()
+	{
+		list = null;
+		numUsers = 0;
+	}
+	
+	public boolean isEmpty()
+	{
+		return numUsers == 0;
+	}
+	
+	public int size()
+	{
+		return numUsers;
+	}
+	
+	  private Node find(int index)
+	  {
+	  // --------------------------------------------------
+	  // Locates a specified node in a linked list.
+	  // Precondition: index is the number of the desired
+	  // node. Assumes that 1 <= index <= numItems+1
+	  // Postcondition: Returns a reference to the desired
+	  // node.
+	  // --------------------------------------------------
+	    Node curr = list.getNext(); // meaning: Reference the first item
+	    for (int skip = 1; skip < index; skip++)
+	    {
+	      curr = curr.getNext();
+	    } // end for
+	    return curr;
+	  } // end find
+	  
+	  public Object get(int index)
+	  {
+	    if (index >= 1 && index <= numUsers)
+	    {
+	      // get reference to node, then data in node
+	      Node curr = find(index);
+	      Object dataItem = curr.getUser();
+	      return dataItem;
+	    }
+		return index;
+
+	  } // end get
+
+	
+	public void add(int index, String user) 
+	  {
+	    if (index >= 1 && index <= numUsers+1)
+	    {
+	      if (index == 1)
+	      {
+	        if (list == null) 
+			 {
+				Node newNode = new Node(user, null);
+			    list = newNode;
+			    list.setNext(newNode);
+			 }
+	        else
+	         {
+	          Node newNode = new Node(user, list.getNext());
+	          list.setNext(newNode);
+		     }
+	     }
+	      else
+	      {
+	        // CASE "MIDDLE"
+	        Node prev = find(index-1);
+	        // insert the new node containing item after
+	        // the node that prev references
+	        Node newNode = new Node(item, prev.getNext());
+	        prev.setNext(newNode);
+	        if (index == numItems+1) // Adding to the end of the list
+	            // CASE "END - NOT EMPTY!! "
+	           list = newNode;
+
+	       } // end if
+
+	      numUsers++;
+	    }
+
+	  }  // end add
+	
+	public void display()
+	{
+		for(int i = 1; i <= numUsers; i++)
+		{
+			 System.out.println(this.get(i));	
+		}
+	}
+	
+	
+	
+}

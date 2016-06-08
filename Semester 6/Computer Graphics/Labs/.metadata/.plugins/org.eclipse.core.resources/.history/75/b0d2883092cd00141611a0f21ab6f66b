@@ -1,0 +1,8 @@
+
+public class Bird extends LivingThing{
+	
+	public Bird(){
+		name = "Bird";
+		feature = "Wings";
+	}
+}

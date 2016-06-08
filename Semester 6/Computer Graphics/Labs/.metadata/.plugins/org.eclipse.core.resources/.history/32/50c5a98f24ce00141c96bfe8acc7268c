@@ -1,0 +1,36 @@
+import java.awt.GridLayout;
+
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+import javax.swing.JPasswordField;
+import javax.swing.JTextField;
+
+
+public class RegisterFrame extends GreetingDisplay{
+	
+	
+	JPanel registerPanel = new JPanel();
+	JTextField name, address1, address2, email;
+	JPasswordField password;
+	JLabel nameLabel, passwordLabel, address1Label, address2Label, emailLabel;
+	
+	public RegisterFrame(){
+		loginFrame = new JFrame();
+		panel = new JPanel();
+		panel.setLayout(new GridLayout(5,5));
+		panel.add(nameLabel);
+		panel.add(name);
+		panel.add(passwordLabel);
+		panel.add(password);
+		panel.add(address1Label);
+		panel.add(address1);
+		panel.add(address2Label);
+		panel.add(address2);
+		panel.add(emailLabel);
+		panel.add(email);
+		loginFrame.add(panel);
+		loginFrame.setSize(300, 300);
+		loginFrame.setVisible(true);
+	}
+}

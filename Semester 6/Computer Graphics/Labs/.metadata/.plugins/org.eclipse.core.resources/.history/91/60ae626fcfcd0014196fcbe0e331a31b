@@ -1,0 +1,5 @@
+package factoryClasses;
+
+public interface GameAbstractFactory {
+
+}

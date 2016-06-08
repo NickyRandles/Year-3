@@ -1,0 +1,129 @@
+{counties:
+	[
+		{
+			"label": "Antrim",
+			"value": "An"
+		},
+		{
+			"label": "Armagh",
+			"value": "Ar"
+		},
+		{
+			"label": "Carlow",
+			"value": "Ca"
+		},
+		{
+			"label": "Cavan",
+			"value": "Ca"
+		},
+		{
+			"label": "Clare",
+			"value": "Cl"
+		},
+		{
+			"label": "Cork",
+			"value": "Co"
+		},
+		{
+			"label": "Donegal",
+			"value": "Do"
+		},
+		{
+			"label": "Down",
+			"value": "Do"
+		},
+		{
+			"label": "Dublin",
+			"value": "Du"
+		},
+		{
+			"label": "Fermanagh",
+			"value": "Fe"
+		},
+		{
+			"label": "Galway",
+			"value": "Ga"
+		},
+		{
+			"label": "Kerry",
+			"value": "Ke"
+		},
+		{
+			"label": "Kildare",
+			"value": "Ki"
+		},
+		{
+			"label": "Kilkenny",
+			"value": "Ki"
+		},
+		{
+			"label": "Laois",
+			"value": "La"
+		},
+		{
+			"label": "Leitrim",
+			"value": "Le"
+		},
+		{
+			"label": "Limerick",
+			"value": "Li"
+		},
+		{
+			"label": "Longford",
+			"value": "Lo"
+		},
+		{
+			"label": "Louth",
+			"value": "Lo"
+		},
+		{
+			"label": "Mayo",
+			"value": "Ma"
+		},
+		{
+			"label": "Meath",
+			"value": "Me"
+		},
+		{
+			"label": "Monaghen",
+			"value": "Mo"
+		},
+		{
+			"label": "Offaly",
+			"value": "Of"
+		},
+		{
+			"label": "Roscommon",
+			"value": "Ro"
+		},
+		{
+			"label": "Sligo",
+			"value": "Sl"
+		},
+		{
+			"label": "Tipperary",
+			"value": "Ti"
+		},
+		{
+			"label": "Tyrone",
+			"value": "Ty"
+		},
+		{
+			"label": "Waterford",
+			"value": "Wa"
+		},
+		{
+			"label": "Westmeath",
+			"value": "We"
+		},
+		{
+			"label": "Wexford",
+			"value": "We"
+		},
+		{
+			"label": "Wicklow",
+			"value": "Wi"
+		}	
+	]
+	
+}

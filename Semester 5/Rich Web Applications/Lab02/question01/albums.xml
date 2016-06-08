@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<albums>
+<album01>
+	<artistName>Ed Sheeran</artistName>
+	<albumName>X</albumName>
+	<releaseDate>20/6/2014</releaseDate>
+</album01>
+<album02>
+	<artistName>The Script</artistName>
+	<albumName>No Sound Without Silence</albumName>
+	<releaseDate>28/7/2014</releaseDate>
+</album02>
+</albums>

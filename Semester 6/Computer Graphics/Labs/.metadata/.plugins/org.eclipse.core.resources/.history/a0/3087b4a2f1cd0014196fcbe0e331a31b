@@ -1,0 +1,11 @@
+
+public abstract class AwardingBody {
+	protected String message;
+	
+	public String getMessage(){
+		return message;
+	}
+	
+	public abstract Prize getPrize(int prize);
+	
+}

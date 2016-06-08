@@ -1,0 +1,16 @@
+package factoryClasses;
+
+import gamePieces.*;
+
+public class SeaGameConcreteFactory implements BattleGameAbstractFactory{
+
+	public WaterVehicle getBattleVehicle(int num){
+		if(num == 1){
+			return new Submarine();
+		}
+		else if(num == 2){
+			return new Boat();
+		}
+		return null;
+	}
+}

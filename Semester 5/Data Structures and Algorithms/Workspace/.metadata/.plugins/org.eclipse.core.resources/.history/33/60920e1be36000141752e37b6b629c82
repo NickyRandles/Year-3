@@ -1,0 +1,28 @@
+public class Node
+{
+  public String user;
+  private Node next;
+
+  public Node(String newUser)
+  {
+	user = newUser;
+    next = null;
+  } // end constructor
+
+  public Node(String newUser, Node nextNode)
+  {
+	user = newUser;
+    next = nextNode;
+  } // end constructor
+
+  public void setUser(String newUser)
+  {
+	user = newUser;
+  } // end setItem
+
+  public void setNext(Node nextNode)
+  {
+    next = nextNode;
+  } // end setNext
+
+}

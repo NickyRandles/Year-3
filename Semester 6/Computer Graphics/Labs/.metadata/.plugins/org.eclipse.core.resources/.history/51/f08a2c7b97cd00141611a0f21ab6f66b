@@ -1,0 +1,27 @@
+
+public class NonLivingThingFactory implements EarthThingsAbstractFactory{
+	String thing;
+
+	public NonLivingThingFactory(){
+		int random = (int) (Math.random() * (2 - 1) + 1);
+		if(random == 1){
+			thing = "Bird";
+		}
+		else{
+			thing = "Dog";
+		}
+	}
+	
+	@Override
+	public Thing getThing() {
+		
+		if("Car".equalsIgnoreCase(thing)){
+			return new Car();
+		}
+		if("Book".equalsIgnoreCase(thing)){
+			return new Book();
+		}
+		return null;
+	}
+
+}

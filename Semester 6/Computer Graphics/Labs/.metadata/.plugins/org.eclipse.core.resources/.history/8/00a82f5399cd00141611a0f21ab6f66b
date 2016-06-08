@@ -1,0 +1,12 @@
+
+public class EarthMaker {
+
+	public static void main(String [] args){
+		EarthThingsAbstractFactory factory = new NonLivingThingFactory();
+		EarthThingsAbstractFactory factory2 = new NonLivingThingFactory();
+		EarthThingsAbstractFactory factory3 = new NonLivingThingFactory();
+		factory.getThing();
+		factory2.getThing();
+		factory3.getThing();
+	}
+}

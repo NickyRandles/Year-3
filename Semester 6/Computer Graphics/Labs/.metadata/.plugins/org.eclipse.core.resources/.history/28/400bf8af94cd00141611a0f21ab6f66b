@@ -1,0 +1,8 @@
+
+public class EarthMaker {
+
+	public static void main(String [] args){
+		EarthThingsAbstractFactory factory = new LivingThingFactory();
+		factory.getThing("car");
+	}
+}

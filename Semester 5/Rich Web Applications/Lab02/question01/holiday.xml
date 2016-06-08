@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<holiday>
+<outboundFlight>
+	<passenger01>Joe Bloggs</passenger01>
+	<passenger02>John Smith</passenger02>
+	<departFrom>Dublin, Ireland</departFrom>
+	<destination>Rome, Italy</destination>
+	<departDate>4/3/2014</departDate>
+	<departTime>12:15pm</departTime>
+	<arriveTime>15:25pm</arriveTime>
+</outboundFlight>
+
+<hotel>
+	<hotelName>Radisson Hotel</hotelName>
+	<hotelLocation>Rome, Italy</hotelLocation>
+	<guest01>Joe Bloggs</guest01>
+	<guest02>John Smith</guest02>
+	<stay>7 days</stay>
+	<checkinDate>4/3/2014</checkinDate>
+	<checkoutDate>11/3/2014</checkoutDate>
+</hotel>
+
+<returnFlight>
+	<passenger01>Joe Bloggs</passenger01>
+	<passenger02>John Smith</passenger02>
+	<departFrom>Rome, Italy</departFrom>
+	<destination>Dublin, Ireland</destination>
+	<departDate>11/3/2014</departDate>
+	<departTime>16:05pm</departTime>
+	<arriveTime>17:20pm</arriveTime>
+</returnFlight>
+</holiday>

@@ -1,0 +1,25 @@
+package factoryClasses;
+
+import gamePieces.*;
+
+public class SeaGameConcreteFactory implements BattleGameAbstractFactory{
+
+	int random = (int) ((Math.random() * 2) + 1);
+
+	public Vehicle getBattleVehicle(){
+		if(random == 1){
+			return new Submarine();
+		}
+		else if(random == 2){
+			return new Boat();
+		}
+		return null;
+	}
+
+	public DamageItem getDamageItem() {
+		if(random == 1){
+			return new SeaMine();
+		}
+		return null;
+	}
+}

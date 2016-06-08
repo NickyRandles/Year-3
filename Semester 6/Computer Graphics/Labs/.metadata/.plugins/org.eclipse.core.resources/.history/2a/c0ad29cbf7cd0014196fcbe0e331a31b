@@ -1,0 +1,7 @@
+import javax.swing.ImageIcon;
+
+
+public abstact class Prize {
+	
+	public abstract ImageIcon getIcon();
+}

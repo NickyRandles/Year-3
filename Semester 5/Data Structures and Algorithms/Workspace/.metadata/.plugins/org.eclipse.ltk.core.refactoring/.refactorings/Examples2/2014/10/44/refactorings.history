@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;ListIndexOutOfBoundsException.java&apos; to &apos;Assignment_PartB/src/(default package)&apos;&#x0D;&#x0A;- Original project: &apos;Examples2&apos;&#x0D;&#x0A;- Destination element: &apos;Assignment_PartB/src/(default package)&apos;&#x0D;&#x0A;- Original element: &apos;ListIndexOutOfBoundsException.java&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="=Assignment_PartB/src&lt;" element1="/src&lt;{ListIndexOutOfBoundsException.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1414761859933" units="1" version="1.0"/>
+</session>

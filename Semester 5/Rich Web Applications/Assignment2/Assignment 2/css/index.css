@@ -1,0 +1,136 @@
+body {
+	font-family: sans-serif;
+}
+
+body {
+	font-family: "Helvetica", Arial, sans-serif;
+}
+
+#home, #about, #ratoathPicture, #centrePicture, #videos{
+	text-align: center;
+}
+
+#header{
+	width: 100%;
+}
+
+#home p{
+	clear: both;
+}
+
+#home .ui-controlgroup {
+	width: 60%;
+	margin: 0 auto;
+	margin-top: 20px;
+	max-width: 250px;
+}
+
+#about img{
+	width: 40%;
+	height: 40%;
+}
+
+#ratoathPicture img, #centrePicture img{
+	width: 95%;
+	height: 95%;
+}
+
+#map-canvas{
+	height: 500px;
+	width: 100%;
+}
+
+
+#directions-panel{
+	width: 50%;
+	margin-top: 2%;		
+}
+
+#buttons{
+	text-align:center;
+}
+
+#video iframe{
+	width: 100%;
+	min-height: 50%;
+}
+
+#thumbnail{
+	width: 90%;
+}
+
+.ui-icon-aboutIcon{
+	background-image: url("../images/icon_about.png");
+}
+
+#photoList img {
+	width: 98px;
+	border-radius: 4px;
+}
+
+#photoList .ui-block-a, #photoList .ui-block-b, #photoList .ui-block-c {
+	width: 100px;
+	height: 100px;
+	padding: 2px;
+}
+
+#photoList.ui-grid-c {
+	width: 310px;
+	padding: 0;
+	margin: 0 auto;
+}
+#showPhoto img{
+	display: block;
+	margin: 0 auto;
+	max-width: 1024px;
+	width: 100%;
+}
+
+#showPhoto .ui-content{
+	width: 100%;
+	padding: 0;
+}
+
+#socialMedia{
+	margin: 0 auto;
+	width: 80%;
+}
+
+.twitter-follow-button{
+	display: block;
+	width: 100%;
+	margin: 0 auto;
+	margin-bottom: 1%;
+}
+
+.ui-icon-about:after {
+    background-image: url("../images/about.png");
+    /* Make your icon fit */
+    background-size: 18px 18px;
+}
+
+.ui-icon-activities:after {
+    background-image: url("../images/activities.png");
+    /* Make your icon fit */
+    background-size: 18px 18px;
+}
+
+.ui-icon-videos:after {
+    background-image: url("../images/videos.png");
+    /* Make your icon fit */
+    background-size: 18px 18px;
+}
+
+.ui-icon-photos:after {
+    background-image: url("../images/photos.png");
+    /* Make your icon fit */
+    background-size: 18px 18px;
+}
+
+.ui-icon-contact:after {
+    background-image: url("../images/contact.png");
+    /* Make your icon fit */
+    background-size: 18px 18px;
+}
+
+

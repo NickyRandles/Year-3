@@ -1,0 +1,108 @@
+
+public class TestLoginLogoff {
+	
+	
+	public static void main(String [] args)
+	{
+		CircularList list = new CircularList();
+		
+		int count = list.size();
+		
+		String [] options = {"Yes", "No"}; 
+		
+		
+		
+	    String[] users = {"Aloysius Amazu",
+	    		"Ahmadollah Nazari",
+				"Shane Mac Mathuna",
+				"Oonagh Maher",
+				"Charles John",
+				"Inta Buseniece",
+				"Michelle Ruth",
+				"Aaron Flanagan ",
+				"Kevin Nguyen",
+				"Mindaugas Kluonis",
+				"Bernado Jose",
+				"Dmitrij Borovkov",
+				"David Breen ",
+				"Piotr Masio",
+				"Cosmin Mirt",
+				"Jesus Lavilla",
+				"Diego Malo",
+				"Alejandro Menal",
+				"Guillermo Ramos",
+				"Dereck O Brien",
+				"Conor McKeogh",
+				"Ciaran O Meara",
+				"Bogdans Krutilins",
+				"Jonathan Grant",
+				"Shane Lowry",
+				"David Malone",
+				"David Concarr",
+				"Conor Smith",
+				"John Flood",
+				"Ciaran Boland",
+				"Andrew Kelly",
+				"Szabolcs Kovacs",
+				"Ciaran Beirne",
+				"Daragh Walshe",
+				"Omar Ibrahim",
+				"Thomas Colombet",
+				"Samuel Louden",
+				"Michael James",
+				"Jasmine Naami",
+				"Alan Leech",
+				"Darragh Lambe",
+				"Aminu Ojekhebholo",
+				"David Cushen",
+				"Andrew Meakin",
+				"David Kelly",
+				"Adem Slavotic",
+				"Michael Korb",
+				"Martin Deegan-Sheridan",
+				"Anthony Creighton",
+				"Darren Alder",
+				"Keith Somers",
+				"Martin Zuber",
+				"Keith Rodden",
+				"Seth Harbottle",
+				"Paul Cairns",
+				"Chris Arndt",
+				"Mael Pons"};
+		
+    	for(int i = 0; i < users.length; i++)
+    	{
+    		list.add(i+1, users[i]);
+    		 
+    	}
+	
+	
+    	list.display();
+		
+		do{
+		
+    	for(int i = 0; i < users.length; i++)
+    	{
+    		
+	    	int random = (int) ((Math.random() * 2) + 1);
+	    	if(random == 1)
+	    	{
+	    		list.remove(i+1);
+	    		list.displayUser(i+1);
+	    	}
+    	}
+    	
+		}while(list.numUsers != 0);
+
+		if(list.numUsers == users.length; i++)
+		{
+			System.our.println("[All users are now logged on.]");
+		}
+		
+		else if(list.numUsers == 0)
+		{
+			System.our.println("[All users logged off.]");
+		}
+	}
+
+}

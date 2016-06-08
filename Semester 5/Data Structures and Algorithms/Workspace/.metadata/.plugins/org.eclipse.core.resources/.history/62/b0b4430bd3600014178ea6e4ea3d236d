@@ -1,0 +1,16 @@
+
+public class Link {
+	
+	public char bracket;
+	
+	public Link next;
+	
+	public Link(String bracket)
+	{
+		this.bracket = bracket;
+	}
+	
+	
+	
+
+}

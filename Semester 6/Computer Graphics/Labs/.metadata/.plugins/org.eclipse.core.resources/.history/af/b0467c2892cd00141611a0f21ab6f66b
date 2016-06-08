@@ -1,0 +1,16 @@
+
+public abstract class Thing {
+	
+	protected String name;
+	protected String feature;
+	protected String type;
+	
+	public String getName(){
+		return name;
+	}
+	
+	public String getFeature(){
+		return feature;
+	}
+
+}

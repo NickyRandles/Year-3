@@ -1,0 +1,14 @@
+
+public abstract class AwardingBody {
+	protected String message = "Congratulations you are a winner";
+	
+	public String getMessage(){
+		return message;
+	}
+	
+	public Prize getPrize(int prize)
+	{
+		return null;}
+	
+	
+}

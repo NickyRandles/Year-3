@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="13.2">
+  <zoom_level>6</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>348</x>
+      <y>270</y>
+      <w>108</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>AddressFactory
+--
++getCountry(String country): Address
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>174</x>
+      <y>228</y>
+      <w>102</w>
+      <h>114</h>
+    </coordinates>
+    <panel_attributes>AddressGUI
+--
+address: Address
+panel: JPanel
+inputPanel: JPanel
+addressPanel: JPanel
+question01: JLabel
+question02: JLabel
+question03: JLabel
+header: JLabel
+country: String
+countryBox: JComboBox</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>720</x>
+      <y>222</y>
+      <w>180</w>
+      <h>216</h>
+    </coordinates>
+    <panel_attributes>USAddress
+--
+addresses: Vector
++country: String
++counties: String
++states: String
++label: JLabel
++address1: JLabel
++address2: JLabel
++address3: JLabel
++zipcode: JLabel
++blank: JLabel
++address1Field: JTextField
++address2Field: JTextField
++address3Field: JTextField
++zipcodeField: JTextField
+box: JComboBox
+JButton submit
+--
++getCountry(): String
++getCounties(): String
++getStates(): String
++actionPerformed(ActionEvent e): void
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>642</x>
+      <y>36</y>
+      <w>96</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>Address
+--
+addresses: Vector
++country: String
++counties: String
++states: String
+--
++getCountry(): String
++getCounties(): String
++getStates(): String</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>492</x>
+      <y>222</y>
+      <w>156</w>
+      <h>198</h>
+    </coordinates>
+    <panel_attributes>IrelandAddress
+--
+addresses: Vector
++country: String
++counties: String
++states: String
++label: JLabel
++address1: JLabel
++address2: JLabel
++address3: JLabel
++blank: JLabel
++address1Field: JTextField
++address2Field: JTextField
++address3Field: JTextField
+box: JComboBox
+JButton submit
+--
++getCountry(): String
++getCounties(): String
++getStates(): String
++actionPerformed(ActionEvent e): void
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>558</x>
+      <y>120</y>
+      <w>132</w>
+      <h>114</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+&lt;&lt;extends&gt;&gt;</panel_attributes>
+    <additional_attributes>200.0;10.0;10.0;170.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>696</x>
+      <y>120</y>
+      <w>126</w>
+      <h>114</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+&lt;&lt;extends&gt;&gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;190.0;170.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>408</x>
+      <y>300</y>
+      <w>168</w>
+      <h>192</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>260.0;200.0;260.0;300.0;10.0;300.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>384</x>
+      <y>300</y>
+      <w>438</w>
+      <h>216</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>710.0;230.0;710.0;340.0;10.0;340.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>270</x>
+      <y>276</y>
+      <w>90</w>
+      <h>18</h>
+    </coordinates>
+    <panel_attributes>lt=-</panel_attributes>
+    <additional_attributes>130.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+</diagram>

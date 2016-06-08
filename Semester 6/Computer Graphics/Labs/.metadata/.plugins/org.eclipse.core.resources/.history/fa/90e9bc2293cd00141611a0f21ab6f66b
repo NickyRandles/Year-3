@@ -1,0 +1,16 @@
+
+public class LivingThingFactory implements EarthThingsAbstractFactory{
+
+	@Override
+	public Thing getThings(String things) {
+		
+		if("Bird".equalsIgnoreCase(things)){
+			new Bird();
+		}
+		else if("Car".equalsIgnoreCase(things)){
+			new Dog();
+		}
+		return null;
+	}
+
+}

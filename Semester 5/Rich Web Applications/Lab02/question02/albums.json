@@ -1,0 +1,13 @@
+{"albums":
+	{"album01":
+		{"artistName": "Ed Sheeran",
+		 "albumName": "X",
+		 "releaseDate": "20/6/2014"},
+	 "album02":
+	 	{"artistName": "The Script",
+	 	 "albumName": "No Sound Without Silence",
+		 "releaseDate": "28/7/2014"}
+	}
+	
+}
+	

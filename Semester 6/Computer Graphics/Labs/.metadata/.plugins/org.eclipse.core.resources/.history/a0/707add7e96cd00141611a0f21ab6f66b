@@ -1,0 +1,7 @@
+
+public interface EarthThingsAbstractFactory {
+	
+	public int Thing
+	public Thing getThing();
+
+}

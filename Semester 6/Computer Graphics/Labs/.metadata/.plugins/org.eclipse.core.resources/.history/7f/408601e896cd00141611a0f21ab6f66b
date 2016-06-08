@@ -1,0 +1,20 @@
+
+public class LivingThingFactory implements EarthThingsAbstractFactory{
+
+	public LivingThingFactory(){
+		int random = (int) (Math.random() * (1 - 0) + 0);
+	
+	}
+	@Override
+	public Thing getThing() {
+		
+		if("Bird".equalsIgnoreCase(thing)){
+			return new Bird();
+		}
+		else if("Dog".equalsIgnoreCase(thing)){
+			return new Dog();
+		}
+		return null;
+	}
+
+}

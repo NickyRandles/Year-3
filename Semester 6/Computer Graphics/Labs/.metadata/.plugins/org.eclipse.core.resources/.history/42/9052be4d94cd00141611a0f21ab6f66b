@@ -1,0 +1,9 @@
+
+public class Bird extends LivingThing{
+	
+	public Bird(){
+		name = "Bird";
+		feature = "Wings";
+		System.out.println("Bird class, subclass of LivingThing that has name \"" + name +  "\" and feature \"" + feature + "\"");
+	}
+}

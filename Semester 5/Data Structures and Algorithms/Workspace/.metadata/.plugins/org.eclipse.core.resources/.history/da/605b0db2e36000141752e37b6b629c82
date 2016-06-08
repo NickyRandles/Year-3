@@ -1,0 +1,14 @@
+
+public class CircularList {
+
+	public Node list;
+	public int numUsers;
+	
+	public CircularList()
+	{
+		list = null;
+		numUsers = 0;
+	}
+	
+	
+}

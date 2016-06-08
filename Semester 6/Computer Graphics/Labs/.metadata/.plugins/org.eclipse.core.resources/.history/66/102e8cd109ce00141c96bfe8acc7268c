@@ -1,0 +1,25 @@
+import java.awt.*;
+
+import javax.swing.*;
+
+
+public class LoginFrame extends GreetingDisplay{
+	
+	JFrame frame;
+	JPanel loginPanel = new JPanel();
+	JTextField username;
+	JPasswordField password;
+	JLabel usernameLabel, passwordLabel;
+	
+	public LoginFrame(){
+		frame  = new JFrame();
+		panel.setLayout(new GridLayout(2,2));
+		panel.add(usernameLabel);
+		panel.add(username);
+		panel.add(passwordLabel);
+		panel.add(password);
+		frame.add(loginPanel);
+		
+	}
+
+}

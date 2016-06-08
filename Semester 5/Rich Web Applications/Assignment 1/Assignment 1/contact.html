@@ -1,0 +1,140 @@
+<html>
+<head>
+	<title>Ratoath Community Centre</title>
+	<link href="css/index.css" rel="stylesheet" type="text/css">
+	<link href="css/nav_bar.css" rel="stylesheet" type="text/css">
+	<link href="css/table.css" rel="stylesheet" type="text/css">
+	<link href="css/basics.css" rel="stylesheet" type="text/css">
+	<script type="text/javascript" src="js/jquery-latest.js"></script>
+	<script type="text/javascript" src="js/jquery-ui.min.js"></script>
+	<link href="fancybox/fancybox/jquery-ui.css" rel="stylesheet" type="text/css"/>
+	<script type="text/javascript" src="fancybox/fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
+	<script type="text/javascript" src="fancybox/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+
+<style>
+	#tabs{
+		width: 600px;
+		margin-left: 25%;
+		clear: both;
+		margin-top: 5%;
+		margin-bottom: 5%;
+	}
+	
+	table{
+		width: 550px;
+	}
+</style>
+
+<script>
+
+$("document").ready(function() {
+	$("#tabs").tabs(); 
+
+	$("#table tr:even").addClass("color01");
+	$("#table tr:odd").addClass("color02");
+	
+	$("#table tr").hover(
+	function() {
+		$(this).toggleClass("highlight");
+	}
+	);
+});
+
+</script>
+
+</head>
+
+<body>
+<div id="mainBody">
+	<header>
+		<img src = "images/header.jpg" alt = "Header image">
+		
+		<nav>
+			<ul>
+				<li><a href = "index.html">Home</a>
+				</li>
+				<li><a href = "aboutRatoath.html">About</a>
+				<ul>
+					<li><a href = "aboutRatoath.html">About Ratoath</a></li>
+					<li><a href = "aboutCentre.html">About Centre</a></li>
+				</ul>
+				</li>
+				<li><a href = "activities.html">Activities</a></li>
+				<li><a href = "venue.html">The Venue Theatre</a></li>
+				<li><a href = "gallery.html">Gallery</a></li>
+				<li id = "currentPage"><a href = "location.html">More</a>
+				<ul>
+					<li><a href = "location.html">Locate us</a></li>
+					<li><a href = "contact.html">Contact us</a></li>
+				</ul>
+			</ul>
+		</nav>
+	</header>
+
+	<div id="tabs">
+		<ul>
+			<li><a href="#option01"><span>Contact us</span></a></li>
+
+			<li><a href="#option02"><span>Contacts at</span></a></li>
+		</ul>
+
+		<div id="option01">
+			<p>
+			Ratoath Community Centre,<br>
+			Main Street,<br>
+			Ratoath,<br>
+			Co. Meath.
+			</p>
+			<p>
+			<b>Tel:</b> 01 6895600   <b>Fax:</b> 01 6895601 <br>
+			<b>Email:</b><a href = "mailto:info@ratoathcc.ie">info@ratoathcc.ie</a><br>
+			<b>Web:</b><a href = "http://www.ratoathcc.ie">www.ratoathcc.ie</a><br>
+			<p>
+		</div>
+
+		<div id="option02">
+			<table border = "1" id = "table">
+				<caption>Contacts at Ratoath Community Centre</caption>
+				<tr>
+					<th>Position</th> <th>Name</th>
+				</tr>
+				<tr>
+					<td>Reception</td> <td>Marie Rooney</td> 
+				</tr>
+				<tr>
+					<td>Box office Accounts</td> <td>Denise Sherry</td> 
+				</tr>
+				<tr>
+					<td>Box office Accounts</td> <td>Imelda Brennan</td> 
+				</tr>
+				<tr>
+					<td>Community & Arts Manager</td> <td>Mary Nolan</td>
+				</tr>
+				<tr>
+					<td>Happy Days Childcare Manager</td> <td>Eilish Balfe</td> 
+				</tr>
+				<tr>
+					<td>Caretaker</td> <td>Denis McMullan</td> 
+				</tr>
+			</table>
+
+		</div>
+
+	</div>
+</div>	
+
+<footer>
+	<hr>
+	<p>
+	Telephone no:  01 6895600 
+	</p>
+	<p>
+	Fax no: 01 6895601 
+	</p>
+	<p>
+	Email: <a href = "mailto:info@ratoathcc.ie"><img src = "images/email.png" height = "25" width = "50" alt = "Email image" id = "email"></a>
+	</p>
+</footer>	
+
+</body>
+</html>

@@ -1,0 +1,15 @@
+
+public class EarthMaker {
+
+	public static void main(String [] args){
+		EarthThingsAbstractFactory [] factory = new EarthThingsAbstractFactory[10];
+		int random = (int) ((Math.random() * 2) + 1);
+		String [] type = {"living", "nonliving"};
+		for(int i = 100; i < 100; i++){
+			factory[i] = new FactoryProducer.getFactory(type[random]);
+		}
+		//EarthThingsAbstractFactory factory = FactoryProducer.getFactory("living");
+		//factory.getThing();
+	}
+		
+}

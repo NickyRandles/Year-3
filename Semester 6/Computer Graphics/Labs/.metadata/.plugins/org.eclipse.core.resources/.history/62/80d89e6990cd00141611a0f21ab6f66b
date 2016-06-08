@@ -1,0 +1,8 @@
+
+public class Book extends NonLivingThing{
+
+	public Book(){
+		name = "Book";
+		features = "pages";
+	}
+}
